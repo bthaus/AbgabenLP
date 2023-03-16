@@ -6,3 +6,6 @@ walks(X) :- penguin(X).
 walks(X) :- bird(X), not flies(X).
 flies(X) :- bird(X), not walks(X).
 %grounding
+bird(tweety)
+bird(tux)
+walks(tux)
